@@ -1,5 +1,11 @@
+import Typography from '@mui/material/Typography';
+
 function App() {
-	return <>Hi</>;
+	return (
+		<Typography variant='h1' gutterBottom>
+			Welcome to viaBinTech
+		</Typography>
+	);
 }
 
 export default App;
